@@ -16,4 +16,4 @@ export const Cart = ({ product }) => {
  <Button title="ADD TO BASKET" changeStyle={{ width:'100%' }} />
         </div>
     )
-}
+} 

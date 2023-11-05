@@ -1,0 +1,13 @@
+.btn {
+    display: flex;
+    text-decoration: none;
+    background-color: black;
+    width: 250px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: 600;
+
+}

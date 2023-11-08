@@ -1,0 +1,27 @@
+.basket{
+    display: flex;
+    flex-direction: column;
+    border-top: 0.5px solid rgb(119, 118, 118);
+}
+.box-basket{
+    width: 100%;
+    height: 150px;
+    border-bottom: 0.5px solid gray;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+.basket-img{
+    width: 150px;
+    height: 150px;
+}
+.basket-title-not-found {
+    color:red;
+    font-size: 40px;
+    text-align: center;
+}
+.basket-title{
+    width: 300px;
+    font-size: 20px;
+}

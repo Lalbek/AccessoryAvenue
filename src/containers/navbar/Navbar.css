@@ -15,3 +15,6 @@
 .link:hover{
     color: rgb(144, 153, 161);
 }
+.basket-total{
+color: red;
+}

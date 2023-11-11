@@ -12,6 +12,7 @@
 
 .product-img{
 margin: 40px;
+width: 60%;
 
 }
 
@@ -34,7 +35,7 @@ font-size: 18px;
 margin-bottom: 40px;
 }
 .product-title-not-found {
-    color: red;
+    color:red;
     font-size: 40px;
     text-align: center;
 }

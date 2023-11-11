@@ -8,11 +8,11 @@ export const CollectionCarts = () => {
         getProducts()
     }, [])
     
-        const getProducts = async () => {
-            const response = await fetch('https://fakestoreapi.com/products')
-            const data = await response.json()
-            setProducts(data)
-        }
+    const getProducts = async () => {
+        const response = await fetch('https://fakestoreapi.com/products')
+        const data = await response.json()
+        setProducts(data)
+    }
 
     return(
     <div className= 'collection'>

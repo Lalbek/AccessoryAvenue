@@ -29,3 +29,40 @@
     font-weight: 400;
     width: 50%;
  }
+ @media screen and (max-width: 1000px) {
+   .banner{
+      height: 400px;
+   }
+   .title {
+      font-size: 30px;
+      width: 80%;
+   
+   }
+   
+   .description{
+      font-size: 18px;
+      width: 80%;
+   }
+ }
+ @media screen and (max-width: 600px) {
+   .box-img{
+      display: none;
+   }
+
+   .box-data{
+      width: 100%;
+      margin-right: 0px;
+      background-image: url("../../images/qwer.webp");
+   }
+   .title {
+      color: aliceblue;
+   
+   }
+   
+   .description{
+      color: aliceblue;
+   }
+   .banner{
+      height: 300px;
+   }
+ }

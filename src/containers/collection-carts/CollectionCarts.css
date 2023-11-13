@@ -4,3 +4,9 @@
     justify-content: space-between;
     margin: 40px;
 }
+@media screen and (max-width:650px) {
+    .collection{
+        margin: 20px;
+    }
+    
+}
